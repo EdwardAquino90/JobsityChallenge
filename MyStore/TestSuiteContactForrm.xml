@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+	<test thread-count="5" parallel="classes" name="Test">
+		<classes>
+			<class name="TestSuite.TestSuite">
+
+				<methods>
+
+					<include name="tc_02_validate_contactform"></include>
+					<include name="tc_03_validate_contactform"></include>
+					<include name="tc_04_validate_contactform"></include>
+					<include name="tc_05_validate_contactform"></include>
+					<include name="tc_06_validate_contactform"></include>
+					<include name="tc_07_validate_contactform"></include>
+					<include name="tc_08_validate_contactform"></include>
+
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="11" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T20:14:17 BOT" name="Suite" finished-at="2022-07-18T20:14:36 BOT" duration-ms="19037">
+    <groups>
+    </groups>
+    <test started-at="2022-07-18T20:14:17 BOT" name="Test" finished-at="2022-07-18T20:14:36 BOT" duration-ms="19037">
+      <class name="TestSuite.TestSuite">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestSuite.TestSuite@7f0eb4b4]" started-at="2022-07-18T20:14:17 BOT" name="setUp" finished-at="2022-07-18T20:14:21 BOT" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_10_cart_validation()[pri:0, instance:TestSuite.TestSuite@7f0eb4b4]" started-at="2022-07-18T20:14:21 BOT" name="tc_10_cart_validation" finished-at="2022-07-18T20:14:31 BOT" duration-ms="9936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_10_cart_validation -->
+        <test-method signature="tc_11_cart_validation()[pri:0, instance:TestSuite.TestSuite@7f0eb4b4]" started-at="2022-07-18T20:14:31 BOT" name="tc_11_cart_validation" finished-at="2022-07-18T20:14:35 BOT" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_11_cart_validation -->
+        <test-method is-config="true" signature="end_test_suite()[pri:0, instance:TestSuite.TestSuite@7f0eb4b4]" started-at="2022-07-18T20:14:35 BOT" name="end_test_suite" finished-at="2022-07-18T20:14:36 BOT" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end_test_suite -->
+      </class> <!-- TestSuite.TestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+	<test thread-count="5" parallel="classes" name="Test">
+		<classes>
+			<class name="TestSuite.TestSuite">
+
+				<methods>
+
+				    <exclude name="tc_09_cart_validation"></exclude>
+				    <include name="tc_10_cart_validation"></include> 	
+					<include name="tc_11_cart_validation"></include>
+
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
